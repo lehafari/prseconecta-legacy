@@ -1,0 +1,14 @@
+
+.contenedor-imagenes-masonry .elemento {
+    box-shadow: none !important;
+  }
+
+.agent-image{
+  -webkit-box-shadow: none !important;
+   box-shadow: none !important;
+   border-style: solid !important;
+ }
+
+.contenedor-imagenes-masonry li img:hover {
+    transform: scale(1) !important;
+  }

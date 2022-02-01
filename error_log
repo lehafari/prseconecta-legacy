@@ -1,0 +1,386 @@
+[04-Oct-2021 12:02:02 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:02:02 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(286): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:04:06 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:04:06 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(287): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:04:29 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:04:29 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(286): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:04:31 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:04:31 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(286): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:04:54 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:04:54 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(286): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:05:13 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:05:13 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(286): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:05:14 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:05:14 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(286): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:05:47 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:05:47 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(286): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:07:49 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:07:49 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(287): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:09:04 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:09:04 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(287): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:09:15 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:09:15 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(287): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:09:20 America/Caracas] PHP Warning:  require_once(Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:09:20 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(287): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:11:11 America/Caracas] PHP Warning:  require_once(/home/ecozuyto/prseconecta.com.ecozapas.comViews/home.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:11:11 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ecozuyto/prseconecta.com.ecozapas.comViews/home.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Home.php(13): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): Home->home()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:11:51 America/Caracas] PHP Warning:  require_once(/home/ecozuyto/prseconecta.com.ecozapas.com/Views/login/cambiar_password.php): Failed to open stream: No such file or directory in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:11:51 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ecozuyto/prseconecta.com.ecozapas.com/Views/login/cambiar_password.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php:11
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Login.php(287): Views->getView()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): login->recuperar_cuenta()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Views.php on line 11
+[04-Oct-2021 12:34:06 America/Caracas] PHP Warning:  Undefined array key "idUser-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Perfil.php on line 35
+[04-Oct-2021 12:34:06 America/Caracas] PHP Fatal error:  Uncaught TypeError: sessionUserCliente(): Argument #1 ($idpersona) must be of type int, null given, called in /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Perfil.php on line 35 and defined in /home/ecozuyto/prseconecta.com.ecozapas.com/Helpers/Helpers.php:180
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Perfil.php(35): sessionUserCliente()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): Perfil->putPerfil()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Helpers/Helpers.php on line 180
+[04-Oct-2021 12:35:35 America/Caracas] PHP Warning:  Undefined array key "idUser-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Perfil.php on line 35
+[04-Oct-2021 12:35:35 America/Caracas] PHP Fatal error:  Uncaught TypeError: sessionUserCliente(): Argument #1 ($idpersona) must be of type int, null given, called in /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Perfil.php on line 35 and defined in /home/ecozuyto/prseconecta.com.ecozapas.com/Helpers/Helpers.php:180
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Perfil.php(35): sessionUserCliente()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): Perfil->putPerfil()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Helpers/Helpers.php on line 180
+[04-Oct-2021 12:39:58 America/Caracas] PHP Warning:  Undefined array key "idUser-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Perfil.php on line 36
+[04-Oct-2021 12:39:58 America/Caracas] PHP Fatal error:  Uncaught TypeError: sessionUserCliente(): Argument #1 ($idpersona) must be of type int, null given, called in /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Perfil.php on line 36 and defined in /home/ecozuyto/prseconecta.com.ecozapas.com/Helpers/Helpers.php:180
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.ecozapas.com/Controllers/Perfil.php(36): sessionUserCliente()
+#1 /home/ecozuyto/prseconecta.com.ecozapas.com/Libraries/Core/Load.php(16): Perfil->putPerfil()
+#2 /home/ecozuyto/prseconecta.com.ecozapas.com/index.php(47): require_once('/home/ecozuyto/...')
+#3 {main}
+  thrown in /home/ecozuyto/prseconecta.com.ecozapas.com/Helpers/Helpers.php on line 180
+[04-Oct-2021 13:57:51 America/Caracas] PHP Warning:  Undefined array key "permisos" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 2
+[04-Oct-2021 13:57:51 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:51 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:51 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:51 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:51 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 135
+[04-Oct-2021 13:57:51 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 135
+[04-Oct-2021 13:57:51 America/Caracas] PHP Warning:  Undefined array key "permisos" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Dashboard/dashboard.php on line 3
+[04-Oct-2021 13:57:53 America/Caracas] PHP Warning:  Undefined array key "permisos" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 2
+[04-Oct-2021 13:57:53 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:53 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:53 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 135
+[04-Oct-2021 13:57:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 135
+[04-Oct-2021 13:57:54 America/Caracas] PHP Warning:  Undefined array key "permisos" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 2
+[04-Oct-2021 13:57:54 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:54 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:54 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:54 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:54 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 135
+[04-Oct-2021 13:57:54 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 135
+[04-Oct-2021 13:57:54 America/Caracas] PHP Warning:  Undefined array key "permisos" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Dashboard/dashboard.php on line 3
+[04-Oct-2021 13:57:57 America/Caracas] PHP Warning:  Undefined array key "permisos" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 2
+[04-Oct-2021 13:57:57 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:57 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:57 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:57 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 133
+[04-Oct-2021 13:57:57 America/Caracas] PHP Warning:  Undefined array key "userData-admin" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 135
+[04-Oct-2021 13:57:57 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_admin.php on line 135
+[04-Oct-2021 13:57:57 America/Caracas] PHP Warning:  Undefined array key "permisos" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Dashboard/dashboard.php on line 3
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Undefined array key "userData-cliente" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 82
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 82
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Undefined array key "userData-cliente" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 82
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 82
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Undefined array key "userData-cliente" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 84
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 84
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Undefined array key "userData-cliente" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 3
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 35
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 80
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 86
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 91
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 97
+[04-Oct-2021 14:17:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 100
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Undefined array key "userData-cliente" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 82
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 82
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Undefined array key "userData-cliente" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 82
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 82
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Undefined array key "userData-cliente" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 84
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Template/nav_cliente.php on line 84
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Undefined array key "userData-cliente" in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 3
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 35
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 80
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 86
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 91
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 97
+[04-Oct-2021 15:07:26 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.ecozapas.com/Views/Perfil/perfil.php on line 100
+[10-Dec-2021 15:30:52 America/Caracas] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/ecozuyto/prseconecta.com.meditavivir.com/Models/Customs_formsModel.php on line 117
+[10-Dec-2021 15:30:54 America/Caracas] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/ecozuyto/prseconecta.com.meditavivir.com/Models/Customs_formsModel.php on line 117
+[10-Dec-2021 15:32:03 America/Caracas] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/ecozuyto/prseconecta.com.meditavivir.com/Models/SettingsModel.php on line 133
+[10-Dec-2021 15:32:06 America/Caracas] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/ecozuyto/prseconecta.com.meditavivir.com/Models/SettingsModel.php on line 133
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 135
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 135
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[10-Dec-2021 19:21:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[10-Dec-2021 19:21:32 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[10-Dec-2021 19:21:32 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[10-Dec-2021 19:21:32 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[10-Dec-2021 19:21:32 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[10-Dec-2021 19:21:32 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[10-Dec-2021 19:21:32 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 135
+[10-Dec-2021 19:21:32 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 135
+[10-Dec-2021 19:21:32 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Dashboard/dashboard.php on line 3
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 135
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 135
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 133
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 135
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 135
+[12-Dec-2021 17:52:29 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Dashboard/dashboard.php on line 3
+[12-Dec-2021 17:54:18 America/Caracas] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1241 Operand should contain 1 column(s) in /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Mysql.php:19
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Mysql.php(19): PDOStatement->execute(Array)
+#1 /home/ecozuyto/prseconecta.com.meditavivir.com/Models/Customs_formsModel.php(197): Mysql->insert('\r\n    INSERT IN...', Array)
+#2 /home/ecozuyto/prseconecta.com.meditavivir.com/Controllers/Customs_forms.php(270): Customs_formsModel->insertFieldBuilder(13, '127612712712712', '127612712712712', 0, '21712712712', 'text', '')
+#3 /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Load.php(16): Customs_forms->setFieldBuilder('')
+#4 /home/ecozuyto/prseconecta.com.meditavivir.com/index.php(42): require_once('/home/ecozuyto/...')
+#5 {main}
+  thrown in /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Mysql.php on line 19
+[12-Dec-2021 17:57:59 America/Caracas] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1241 Operand should contain 1 column(s) in /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Mysql.php:19
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Mysql.php(19): PDOStatement->execute(Array)
+#1 /home/ecozuyto/prseconecta.com.meditavivir.com/Models/Customs_formsModel.php(197): Mysql->insert('\r\n    INSERT IN...', Array)
+#2 /home/ecozuyto/prseconecta.com.meditavivir.com/Controllers/Customs_forms.php(270): Customs_formsModel->insertFieldBuilder(13, '126161', '126161', 0, '612261', 'text', '')
+#3 /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Load.php(16): Customs_forms->setFieldBuilder('')
+#4 /home/ecozuyto/prseconecta.com.meditavivir.com/index.php(42): require_once('/home/ecozuyto/...')
+#5 {main}
+  thrown in /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Mysql.php on line 19
+[10-Jan-2022 12:40:27 America/Caracas] PHP Fatal error:  Uncaught Error: Class 'Stripe\Stripe' not found in /home/ecozuyto/prseconecta.com.meditavivir.com/Config/Config.php:91
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.meditavivir.com/index.php(2): include()
+#1 {main}
+  thrown in /home/ecozuyto/prseconecta.com.meditavivir.com/Config/Config.php on line 91
+[10-Jan-2022 14:51:32 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Controllers/Supervision.php on line 28
+[10-Jan-2022 14:51:32 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Controllers/Supervision.php on line 28
+[10-Jan-2022 14:51:32 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[10-Jan-2022 14:51:32 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[10-Jan-2022 14:51:32 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[10-Jan-2022 14:51:32 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[10-Jan-2022 14:51:32 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 95
+[10-Jan-2022 14:51:32 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 95
+[11-Jan-2022 18:14:27 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=62.20.239.5): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:15:22 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=62.20.239.5): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:16:18 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=62.20.239.5): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:17:21 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=190.206.32.130): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:18:06 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=62.20.239.5): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:18:15 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=62.20.239.5): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:25:57 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=62.20.239.5): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:26:32 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=190.206.32.130): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:28:31 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=190.206.32.130): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:29:14 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=62.20.239.5): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:29:35 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=62.20.239.5): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 18:33:21 America/Caracas] PHP Warning:  file_get_contents(http://www.geoplugin.net/json.gp?ip=190.206.32.130): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home/ecozuyto/prseconecta.com.meditavivir.com/Helpers/Helpers.php on line 841
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[11-Jan-2022 19:29:30 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Dashboard/dashboard.php on line 3
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 2
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 4
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 5
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 6
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 95
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 95
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 16
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 35
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 87
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 94
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 101
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 108
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 114
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 116
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 132
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 136
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 142
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 251
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 374
+[14-Jan-2022 07:50:02 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Perfil/perfil.php on line 428
+[14-Jan-2022 14:29:50 America/Caracas] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Mysql.php:53
+Stack trace:
+#0 /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Mysql.php(53): PDOStatement->execute(Array)
+#1 /home/ecozuyto/prseconecta.com.meditavivir.com/Models/CharacteristicsModel.php(69): Mysql->update('UPDATE characte...', Array)
+#2 /home/ecozuyto/prseconecta.com.meditavivir.com/Controllers/Characteristics.php(114): CharacteristicsModel->setOrdenCheck(1, 'listgroup1', '', 1)
+#3 /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Load.php(16): Characteristics->setOrder('')
+#4 /home/ecozuyto/prseconecta.com.meditavivir.com/index.php(45): require_once('/home/ecozuyto/...')
+#5 {main}
+  thrown in /home/ecozuyto/prseconecta.com.meditavivir.com/Libraries/Core/Mysql.php on line 53
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[14-Jan-2022 15:50:28 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[14-Jan-2022 15:50:29 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[14-Jan-2022 15:50:29 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[14-Jan-2022 15:50:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[14-Jan-2022 15:50:29 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[14-Jan-2022 15:50:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[14-Jan-2022 15:50:29 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[14-Jan-2022 15:50:29 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[14-Jan-2022 15:50:29 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Dashboard/dashboard.php on line 3
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: permisosMod in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/modals/modalCustomsForms.php on line 1
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 2
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 132
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: userData-admin in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_admin.php on line 134
+[19-Jan-2022 17:26:42 America/Caracas] PHP Notice:  Undefined index: permisos in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Dashboard/dashboard.php on line 3
+[19-Jan-2022 17:45:56 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[19-Jan-2022 17:45:56 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[19-Jan-2022 17:45:56 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[19-Jan-2022 17:45:56 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 93
+[19-Jan-2022 17:45:56 America/Caracas] PHP Notice:  Undefined index: userData-cliente in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 95
+[19-Jan-2022 17:45:56 America/Caracas] PHP Notice:  Trying to access array offset on value of type null in /home/ecozuyto/prseconecta.com.meditavivir.com/Views/Template/nav_cliente.php on line 95

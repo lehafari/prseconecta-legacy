@@ -1,0 +1,175 @@
+.headerRegister,
+.header-primary {
+	background-color: #dc3545;
+	color: #ffffff;
+}
+
+.headerUpdate {
+	background: #007bff;
+	color: #ffffff;
+}
+
+.bootstrap-select > .dropdown-toggle {
+	border: 0.1pt solid rgba(0, 0, 0, 0.589);
+}
+
+/* Estilos Login */
+#divLoading {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 99999999;
+}
+#divLoading img {
+	width: 50px;
+	height: 50px;
+}
+.required {
+	color: red;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.dropdown-toggle {
+  border: 0 !important;
+	box-shadow: none !important;
+}
+
+.handle {
+	cursor: move;
+}
+
+.card{
+	pointer-events: inherit;
+}
+
+.fantasma {
+	border: 2.5px dotted rgb(153, 153, 153);
+	cursor: grabbing;
+
+}
+
+.seleccionado {
+	box-shadow: 0px 0px 20px rgba(149, 153, 159, .16);
+	cursor: grabbing;
+}
+
+.drag,
+.drag {
+	opacity: 0;
+}
+
+.grupodrag {
+	min-height: 200px;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.cursor-pointer .bxs-edit {
+	font-size: 20px;
+}
+.bx-dots-vertical {
+	font-size: 16px;
+}
+
+.sombra-light {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.border-top-no-radius {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.border-bottom-no-radius {
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.app-footer a, .app-footer .btn {
+	font-size: 16px;
+}
+
+#containerImages {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#containerImages > div {
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+
+.ui-datepicker-calendar{
+	display:none;
+}
+
+.dflex{
+	display:flex;
+	justify-content:space-around;
+	align-items:flex-start;
+}
+
+.container-title{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.container-title input{
+	border:1px solid #ccc;
+	padding:4px;
+	border-radius:4px;
+	margin-right:5px;
+}
+
+
+.prevImage {
+	border: 1px solid #ccc;
+	width: 120px;
+	height: 148px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.prevImage img {
+	width: 100%;
+}
+
+.inputUploadfile {
+	display: none;
+}
+
+.btnUploadfile,
+.btnDeleteImage {
+	border: 0;
+	background-color: #009688;
+	text-align: center;
+	padding: 2px 3px;
+	color: #fff;
+	font-size: 9pt;
+	cursor: pointer;
+	width: 100%;
+}
+
+.btnDeleteImage {
+	background-color: #dc3545;
+}
+
+.prevImage .loading {
+	width: 40px;
+	height: 40px;
+}
+
+#celFotos img {
+	width: 150px;
+	margin: 10px;
+}

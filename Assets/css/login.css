@@ -1,0 +1,326 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrEHJA.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCHPrEHJA.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrEHJA.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Raleway";
+  border-top: 30px solid #1a0063;
+}
+
+.wrap {
+  position: relative;
+  width: 90%;
+  max-width: 500px;
+  padding: 80px;
+  margin: auto;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.contenedor-formulario {
+  width: 100%;
+  color: #f2f2f2;
+  padding: 50px;
+}
+
+.contenedor-formulario .formulario {
+  width: 100%;
+  margin: auto;
+}
+
+.contenedor-formulario .formulario .input-group {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.contenedor-formulario .formulario .input-group input[type="text"],
+.contenedor-formulario .formulario .input-group input[type="email"],
+.contenedor-formulario .formulario .input-group input[type="password"] {
+  font-family: "Raleway";
+  font-size: 16px;
+  color: #150036;
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #bbdefb;
+}
+
+.contenedor-formulario .formulario .input-group input[type="text"]:focus,
+.contenedor-formulario .formulario .input-group input[type="text"]:active,
+.contenedor-formulario .formulario .input-group input[type="email"]:focus,
+.contenedor-formulario .formulario .input-group input[type="email"]:active,
+.contenedor-formulario .formulario .input-group input[type="password"]:focus,
+.contenedor-formulario .formulario .input-group input[type="password"]:active {
+  outline: none;
+  border-bottom: 2px solid #150036;
+}
+
+.contenedor-formulario .formulario .input-group input[type="text"].error,
+.contenedor-formulario .formulario .input-group input[type="email"].error,
+.contenedor-formulario .formulario .input-group input[type="password"].error {
+  border-bottom: 2px solid #d32f2f;
+}
+
+.contenedor-formulario
+  .formulario
+  .input-group
+  input[type="text"].error
+  + label,
+.contenedor-formulario
+  .formulario
+  .input-group
+  input[type="email"].error
+  + label,
+.contenedor-formulario
+  .formulario
+  .input-group
+  input[type="password"].error
+  + label {
+  color: #d32f2f;
+}
+
+.contenedor-formulario .formulario .input-group label {
+  color: #150036;
+}
+
+.contenedor-formulario .formulario .input-group label.label {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+
+.contenedor-formulario .formulario .input-group label.label.active {
+  top: -12px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #b6b6b6;
+}
+
+.contenedor-formulario .formulario .input-group.checkbox label,
+.contenedor-formulario .formulario .input-group.radio label {
+  display: inline-block;
+  cursor: pointer;
+  color: #150036;
+  position: relative;
+  padding: 5px 15px 5px 51px;
+  font-size: 1em;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.contenedor-formulario .formulario .input-group.checkbox label:hover,
+.contenedor-formulario .formulario .input-group.radio label:hover {
+  background: #bbdefb;
+}
+
+.contenedor-formulario .formulario .input-group.checkbox label:before,
+.contenedor-formulario .formulario .input-group.radio label:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 15px;
+  border-radius: 50%;
+  background: none;
+  border: 2px solid #150036;
+}
+
+.contenedor-formulario .formulario .input-group.error label {
+  color: #d32f2f;
+}
+
+.contenedor-formulario .formulario .input-group.error label:hover {
+  background: rgba(211, 47, 47, 0.2);
+}
+
+.contenedor-formulario .formulario .input-group.error label:before {
+  border: 2px solid #d32f2f;
+}
+
+.contenedor-formulario .formulario .input-group.radio input[type="radio"] {
+  display: none;
+}
+
+.contenedor-formulario
+  .formulario
+  .input-group.radio
+  input[type="radio"]:checked
+  + label:before {
+  display: none;
+}
+
+.contenedor-formulario
+  .formulario
+  .input-group.radio
+  input[type="radio"]:checked
+  + label {
+  padding: 5px 15px;
+  background: #150036;
+  border-radius: 2px;
+  color: #f2f2f2;
+}
+
+.contenedor-formulario .formulario .input-group.checkbox label:before {
+  border-radius: 3px;
+}
+
+.contenedor-formulario
+  .formulario
+  .input-group.checkbox
+  input[type="checkbox"] {
+  display: none;
+}
+
+.contenedor-formulario
+  .formulario
+  .input-group.checkbox
+  input[type="checkbox"]:checked
+  + label:before {
+  display: none;
+}
+
+.contenedor-formulario
+  .formulario
+  .input-group.checkbox
+  input[type="checkbox"]:checked
+  + label {
+  background: #150036;
+  color: #f2f2f2;
+  padding: 5px 15px;
+}
+
+.contenedor-formulario .formulario #btn-submit {
+  background: #150036;
+  border-radius: 1px;
+  border: 2px solid #150036;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: rgba(40, 0, 104, 0.4) 0px 5px, rgba(40, 0, 104, 0.3) 0px 10px,
+    rgba(40, 0, 104, 0.1) 0px 15px, rgba(40, 0, 104, 0.1) 0px 20px,
+    rgba(40, 0, 104, 0.05) 0px 25px;
+}
+
+.contenedor-formulario .formulario #btn-submit i {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.contenedor-formulario .formulario #btn-submit:hover {
+  background: #2a006e;
+}
+
+.contenedor-logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contenedor-logo h1 {
+  color: #000;
+  margin: 20px 0 75px 0;
+}
+
+#divLoading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(254, 254, 255, 0.3);
+  z-index: 99999999;
+  display: flex;
+}
+#divLoading img {
+  width: 50px;
+  height: 50px;
+}
