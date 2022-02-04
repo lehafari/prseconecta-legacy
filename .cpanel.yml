@@ -1,5 +1,13 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ecozuyto/prsconecta-testing.meditavivir.com
-    - /bin/rsync -R ./ $DEPLOYPATH
+    - export DEPLOYPATH=/home/ecozuyto/prsconecta-testing.meditavivir.com/
+    - /bin/cp -R Assets $DEPLOYPATH
+    - /bin/cp -R Config $DEPLOYPATH
+    - /bin/cp -R Controllers $DEPLOYPATH
+    - /bin/cp -R Helpers $DEPLOYPATH
+    - /bin/cp -R Libraries $DEPLOYPATH
+    - /bin/cp -R Models $DEPLOYPATH
+    - /bin/cp -R preseconecta $DEPLOYPATH
+    - /bin/cp -R Views $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
