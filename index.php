@@ -1,3 +1,4 @@
+<!-- Comentario salvaje aparece -->
 <?php
 include("Config/Config.php");
 include("Helpers/Helpers.php");
