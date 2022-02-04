@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ecozuyto/prsconecta-testing.meditavivir.com
+    - /bin/rsync -R ./ $DEPLOYPATH
