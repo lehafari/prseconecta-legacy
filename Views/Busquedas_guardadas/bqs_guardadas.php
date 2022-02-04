@@ -3,8 +3,9 @@
 <section class="home-section">
   <div class="home-content">
     <h3>
-      <i class='bx bx-search-alt'></i>
-      Búsquedas guardadas
+      <!--  SECCION BUSQUEDAS GUARDADAS -->
+      <!-- <i class='bx bx-search-alt'></i>
+      Búsquedas guardadas -->
     </h3>
 
   </div>

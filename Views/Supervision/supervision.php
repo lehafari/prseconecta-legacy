@@ -1,11 +1,11 @@
 <?php headerAdmin($data); ?>
 
 <section class="home-section">
-
+<!-- SECCION DE SUPERVISION -->
   <div class="home-content" style="margin: auto 20px;">
     <h3>
-      <i class='bx bx-bar-chart-alt-2 mr-2'></i>
-      Supervisión
+      <!-- <i class='bx bx-bar-chart-alt-2 mr-2'></i>
+      Supervisión -->
     </h3>
 
   </div>

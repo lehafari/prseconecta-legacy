@@ -9,6 +9,7 @@ getModal('barraProgress', $data);
 <section class="home-section">
   <div class="home-content">
     <h3>
+      <!-- SECCION no se  -->
       <i style="font-weight: 100;" class='bx bx-plus-circle'></i>
       Agregar
     </h3>

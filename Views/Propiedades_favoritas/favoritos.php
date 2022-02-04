@@ -3,8 +3,9 @@
 <section class="home-section">
     <div class="home-content">
         <h3>
-            <i class='bx bx-heart'></i>
-            Favoritos
+            <!-- SECCION FAVORITOS -->
+            <!-- <i class='bx bx-heart'></i>
+            Favoritos -->
         </h3>
 
     </div>

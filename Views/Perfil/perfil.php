@@ -9,13 +9,16 @@ headerAdmin($data);
 
 <section class="home-section">
   <div class="home-content d-flex justify-content-between">
+    <!-- CAMBVIOS PAGINA 5 y 7 del DOC -->
     <h3>
-      <i class="bx bx-user-circle"></i>
-      Mi Perfil
+      <!-- No quitar el H3 porque se rueda el boton auzl "ver perfil  -->
+      <!-- <i class="bx bx-user-circle"></i>
+      Mi Perfil -->
     </h3>
     <?php if ($userData['idrol'] == RAGENTES) { ?>
     <a href="<?= $rutaPerfil ?>" target="_blank"
       class="btn btn-info text-white mr-4 sombra-btn font-weight-bold">
+      <!-- BOTON AZUL FAVORITO DE MATH -->
       <div class='bx bx-show '></div>
       Ver Perfil Público
     </a>
@@ -53,13 +56,16 @@ headerAdmin($data);
               </div>
               <p class="h5 text-center mt-3">(300px x 300px)</p>
               <div class="d-flex flex-column ">
+                <!-- BOTON BLANCO DE ACTUALIZAR PERFIL -->
                 <button id="btnSubmitPhoto" type="button"
-                  class="btn btn-light mx-auto mt-3 sombra">
+                class="btn btn-info text-white mr-2 ml-2 mb-2 sombra-btn font-weight-bold"
+                style="font-size: 10px">
                   <i class='bx bx-upload'></i>
                   Actualizar Foto de Perfil
                 </button>
                 <button type="button"
-                  class="btn btn-danger delPhoto 
+                  class="btn btn-danger text-white mt-2 mr-2 ml-2 sombra-btn font-weight-bold"
+                  style="font-size: 11px"
                   <?= empty($userData['imagen']) ? 'notBlock' : '' ?> mx-auto mt-3 sombra">
                   Eliminar foto de Perfil
                   <i class='bx bxs-trash'></i>
