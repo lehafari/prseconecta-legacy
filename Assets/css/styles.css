@@ -11,9 +11,9 @@
 body {
   font-size: 62.5%;
 }
-img {
+/* img {
   width: 100%;
-}
+} */
 .sidebar {
   position: fixed;
   top: 0;
@@ -63,9 +63,9 @@ img {
   margin-bottom: 0;
 }
 
-.sidebar .logo-details img {
+/* .sidebar .logo-details img {
   width: 180px;
-}
+} */
 
 .sidebar.close .logo-details img {
   width: 40px;

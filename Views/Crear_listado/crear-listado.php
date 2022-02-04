@@ -3,8 +3,9 @@
 <section class="home-section">
   <div class="home-content" style="margin: auto 20px;">
     <h3>
-      <i style="font-weight: 100;" class='bx bx-plus-circle'></i>
-      Agregar
+      <!-- SECCION AGREGAR -->
+      <!-- <i style="font-weight: 100;" class='bx bx-plus-circle'></i>
+      Agregar -->
     </h3>
 
   </div>
@@ -18,9 +19,9 @@
         <div class="tile rounded-0">
           <div class="tile-body">
             <div class="row text-center justify-content-center py-3">
-              <div class="col-lg-3">
-                <button style="font-size: 20px;"
-                  class="btn btn-block py-3 font-weight-bold"
+              <div class="col-lg-3 ">
+                <button class="btn btn-block py-3 font-weight-bold "
+                  style="font-size: 20px;"
                   onclick="seleccionarListado(this,'listado')">
                   LISTAR
                 </button>

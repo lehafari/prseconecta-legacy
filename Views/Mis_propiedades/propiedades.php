@@ -12,8 +12,11 @@ table.table tr td {
 <section class="home-section">
   <div style="margin: auto 20px;"
     class="home-content d-sm-flex d-block justify-content-between">
-    <h3><i class='bx bx-buildings'></i>
-      Propiedades</h3>
+    <!-- SECCION DE PROPIEDADES -->
+    <h3>
+      <!-- <i class='bx bx-buildings'></i>
+      Propiedades -->
+    </h3>
     <a href="<?= base_url() ?>/crear-listado"
       class="btn btn-info box-shadow-none d-flex justify-content-center align-items-center">
       Agregar
@@ -34,11 +37,11 @@ table.table tr td {
                   <tr>
                     <th>Portada</th>
                     <th>Titulo</th>
-                    <th class="text-center">Estado</th>
+                    <th class="text-center">Tipo</th>
                     <th class="text-center">Precio</th>
                     <th class="text-center">Paquete</th>
                     <th class="text-center">Fecha de Vencimiento</th>
-                    <th>Ver</th>
+                    <th class="text-center">Ver</th>
                     <th class="text-center">Actions</th>
                   </tr>
                 </thead>
@@ -67,9 +70,10 @@ table.table tr td {
                       <span class="badge badge-success">Aprobado</span>
                       <br>
                       <p class="mb-2">
-                        <span class="font-weight-bold">Tipo:</span>
+                        <!-- EL CONTENIDO AQUI DEBE CAMBIARSE DESDE otro lado -->
+                        <span class="font-weight-bold">Estado:</span>
                         <small>
-                          <?= $propiedad['tipo'] ?><?= !empty($propiedad['subtipo']) ? ', ' . $propiedad['subtipo'] : '' ?>
+                          <?= $propiedad['status'] ?><?= !empty($propiedad['subtipo']) ? ', ' . $propiedad['subtipo'] : '' ?>
 
                         </small>
                       </p>
@@ -80,7 +84,7 @@ table.table tr td {
                         <small><?= $propiedad['direccion_localizacion'] ?></small>
                       </p>
                     </td>
-
+                         <!-- AQUI CAMBIAR CONTENIDO DE LA TABLA -->
                     <td class="text-center"><?= $propiedad['tipo'] ?></td>
                     <td class="font-weight-bold text-center">
                       <?= formatMoney($propiedad['precio']) . SMONEY ?>

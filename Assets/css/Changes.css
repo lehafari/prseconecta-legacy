@@ -1,14 +1,25 @@
+/* Este archivo esta importado en Views->template->Header_tienda */
 
+/* cAMBIOS A IMAGENES EN POST DE PROPIEDAD */
+.contenedor-imagenes-masonry li img:hover {
+    transform: scale(1) !important;
+  }
 .contenedor-imagenes-masonry .elemento {
     box-shadow: none !important;
   }
-
+/* cAMBIOS A FOTO DE PERFIL EN POST DE PROPIEDAD */
 .agent-image{
   -webkit-box-shadow: none !important;
    box-shadow: none !important;
    border-style: solid !important;
- }
 
-.contenedor-imagenes-masonry li img:hover {
-    transform: scale(1) !important;
+ }
+/* HEADER ADMIN CAMBIO A LOGOTIPO */
+  .img-logo{
+    height: 150px !important;
+    width: 150px !important;
+  }
+
+  .btn:hover{
+    background-color: rgba(97, 97, 97, 0.2) !important;
   }

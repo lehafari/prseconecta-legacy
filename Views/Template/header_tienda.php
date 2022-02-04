@@ -31,7 +31,8 @@
 
   <link rel="stylesheet" href="<?= media() ?>/bunzo/assets/css/plugins/aos.css">
   <link rel="stylesheet" href="<?= media() ?>/css/bootstrap-select.min.css">
-  <link rel="stylesheet" href="<?= media() ?>/css/changes.css">
+  <!-- ARCHIVO HECHO POR MI PARA ARREGLAR DETALLES EN LA PAGINA -->
+  <link rel="stylesheet" href="<?= media() ?>/css/Changes.css">
 
 
   <!-- Light gallery CSS -->

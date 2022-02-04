@@ -38,6 +38,8 @@
   <link rel="stylesheet" href="<?= media() ?>/css/utils.css">
 
   <link rel="stylesheet" href="<?= media() ?>/css/custom.css">
+  <!-- ARCHIVO HECHO POR MI PARA ARREGLAR DETALLES EN LA PAGINA -->
+  <link rel="stylesheet" href="<?= media() ?>/css/Changes.css">
   <title><?= $data['page_tag'] ?></title>
 </head>
 
@@ -54,11 +56,12 @@
   <div class="sidebar">
     <div class="logo-details">
       <a href="<?= base_url() ?>">
-        <img src="<?= media() ?>/images/logo.png" alt="">
+        <img class="img-logo" src="<?= media() ?>/images/logo.png" alt="" >
       </a>
 
     </div>
     <?php if (!isset($data['dashboard-dark'])) { ?>
+      <!-- HEADER ADMIN ESTA EL TEXTO VOLTEADO -->
     <span class="textovolteado">
       Panel de Control
     </span>
