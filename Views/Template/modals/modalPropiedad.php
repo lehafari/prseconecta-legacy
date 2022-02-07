@@ -5,8 +5,8 @@ $formbuilderjson = json_decode($propiedad['formbuilderjson'], true);
 <div class="modal fade" id="modalPropiedad"
   lat="<?= floatval($propiedad['latitud_mapa']) ?  $propiedad['latitud_mapa'] : 18.200178 ?>"
   long="<?= floatval($propiedad['longitud_mapa']) ? $propiedad['longitud_mapa'] : -66.664513 ?>">
-  <div class="modal-dialog modal-xl mb-0 mt-0">
-    <div class="modal-content">
+  <div  class="modal-dialog modal-xl mb-0 mt-0">
+    <div class="modal-content " >
       <div class="modal-body p-0">
         <div class="form-row">
           <div class="col-lg-8">
@@ -81,105 +81,109 @@ $formbuilderjson = json_decode($propiedad['formbuilderjson'], true);
                 </div>
               </div>
             </div>
+<!-- SECCION QUE DEBO MOVER: INICIO -->
 
-            <div class="d-flex justify-content-between my-4">
-              <h3><?= $propiedad['titulo'] ?></h3>
-              <div>
-                <span class="badge badge-info d-flex align-items-center">
-                  <p style="font-size: 15px;">
-                    <?= $propiedad['tipo'] ?>
-                  </p>
-                </span>
-              </div>
-            </div>
-            <?php if (!empty($propiedad['subtipo']['titulo'])) { ?>
-            <h5 class="card-title d-flex align-items-center mt-1">
-              <span class="mr-1">
-                <i style="font-size: 10px;"
-                  class='bx bxs-circle text-danger mb-2'></i>
-              </span>
-              <?= $propiedad['subtipo']['titulo'] ?>
-            </h5>
-            <?php } ?>
-
-            <div
-              class="d-flex justify-content-between <?= !empty($propiedad['direccion_localizacion']) ? 'pb-4' : '' ?>">
-              <h4><?= SMONEY . formatMoney($propiedad['precio']) ?></h4>
-              <?php $formbuilder = getFormFieldsByIds($propiedad['subtipo']['top_right_overview_field']); ?>
-              <div class="d-flex">
-                <?php $i = 0;
-                $formbuilderCount = count($formbuilder);
-                foreach ($formbuilder as $form) {
-                ?>
-
-                <h5 class="mx-2"><?= $form['field_name'] ?>: <span class="h6">
-
-                    <?php foreach ($formbuilderjson as $idform => $formUsuario) { ?>
-
-                    <?php if ($form['idform'] == $idform) {
-                          if (!empty($formUsuario[1])) {
-                            echo $formUsuario[1];
-                          } else {
-                            echo 'N/A';
-                          }
-                        ?>
-
-                    <?php }
-                      } ?>
+<div class="d-flex justify-content-between my-3 ">
+                  <h3><?= $propiedad['titulo'] ?></h3>
+                  <div>
+                    <span class="badge badge-info d-flex align-items-center">
+                      <p style="font-size: 15px;">
+                        <?= $propiedad['tipo'] ?>
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <?php if (!empty($propiedad['subtipo']['titulo'])) { ?>
+                <h5 class="card-title d-flex align-items-center mt-1">
+                  <span class="mr-1">
+                    <i style="font-size: 10px;"
+                      class='bx bxs-circle text-danger mb-2'></i>
                   </span>
+                  <?= $propiedad['subtipo']['titulo'] ?>
                 </h5>
+                <?php } ?>
 
-                <?php
-                  echo $formbuilderCount - 1 === $i ? '' : '|';
-                  $i++;
-                } ?>
+                <div
+                  class="d-flex justify-content-between <?= !empty($propiedad['direccion_localizacion']) ? 'pb-4' : '' ?>">
+                  <h4><?= SMONEY . formatMoney($propiedad['precio']) ?></h4>
+                  <?php $formbuilder = getFormFieldsByIds($propiedad['subtipo']['top_right_overview_field']); ?>
+                  <div class="d-flex">
+                    <?php $i = 0;
+                    $formbuilderCount = count($formbuilder);
+                    foreach ($formbuilder as $form) {
+                    ?>
 
-              </div>
-            </div>
+                    <h5 class="mx-2"><?= $form['field_name'] ?>: <span class="h6">
 
-            <?php if (!empty($propiedad['direccion_localizacion'])) { ?>
-            <p>
-              <img style="width: 20px;"
-                src="<?= media() ?>/images/puerto-rico.svg" alt="puerto-rico">
-              <?= $propiedad['direccion_localizacion'] ?>
-            </p>
-            <?php } ?>
+                        <?php foreach ($formbuilderjson as $idform => $formUsuario) { ?>
 
-            <div class="py-2">
-              <?php $formbuilder = getFormFieldsByIds($propiedad['subtipo']['top_overview_field']); ?>
-              <div class="row">
-                <?php foreach ($formbuilder as $form) { ?>
+                        <?php if ($form['idform'] == $idform) {
+                              if (!empty($formUsuario[1])) {
+                                echo $formUsuario[1];
+                              } else {
+                                echo 'N/A';
+                              }
+                            ?>
 
-                <div class="w-33 text-center border-right">
-                  <h5>
-                    <?= $form['field_name'] ?>
-                  </h5>
+                        <?php }
+                          } ?>
+                      </span>
+                    </h5>
 
-                  <h5 class="font-weight-normal mt-1">
                     <?php
-                      foreach ($formbuilderjson as $idform => $formUsuario) {
-                        if ($form['idform'] == $idform) {
-                          if (!empty($formUsuario[1])) {
-                            echo $formUsuario[1];
-                          } else {
-                            echo 'N/A';
-                          }
-                        }
-                      } ?>
-                  </h5>
+                      echo $formbuilderCount - 1 === $i ? '' : '|';
+                      $i++;
+                    } ?>
+
+                  </div>
                 </div>
 
+                <?php if (!empty($propiedad['direccion_localizacion'])) { ?>
+                <p>
+                  <img style="width: 20px;"
+                    src="<?= media() ?>/images/puerto-rico.svg" alt="puerto-rico">
+                  <?= $propiedad['direccion_localizacion'] ?>
+                </p>
                 <?php } ?>
-              </div>
-            </div>
 
-            <div class="d-flex modal-box-nav">
-              <span class="modal-box-nav-icon left">
-                <i class='bx bx-chevron-left'></i>
+                <div class="py-2">
+                  <?php $formbuilder = getFormFieldsByIds($propiedad['subtipo']['top_overview_field']); ?>
+                  <div class="row">
+                    <?php foreach ($formbuilder as $form) { ?>
+
+                    <div class="w-33 text-center border-right">
+                      <h5>
+                        <?= $form['field_name'] ?>
+                      </h5>
+
+                      <h5 class="font-weight-normal mt-1">
+                        <?php
+                          foreach ($formbuilderjson as $idform => $formUsuario) {
+                            if ($form['idform'] == $idform) {
+                              if (!empty($formUsuario[1])) {
+                                echo $formUsuario[1];
+                              } else {
+                                echo 'N/A';
+                              }
+                            }
+                          } ?>
+                      </h5>
+                    </div>
+
+                    <?php } ?>
+                  </div>
+                </div>
+
+
+<!-- SECCION QUE DEBO MOVER: FIN -->
+
+            <div class="d-flex modal-box-nav ">
+              <span class="modal-box-nav-icon left" style="margin-left:-2px;">
+                <i class='bx bx-chevron-left '></i>
               </span>
               <div>
                 <a href="#general" data-id-modal-box-nav="1"
-                  class="active">General</a>
+                  class="active" style="font-size: 12px;">General</a>
               </div>
               <div>
                 <a data-id-modal-box-nav="2" href="#detalles">Detalles</a>
@@ -187,11 +191,11 @@ $formbuilderjson = json_decode($propiedad['formbuilderjson'], true);
 
               <div>
                 <a data-id-modal-box-nav="3"
-                  href="#caracteristicas">Caracteristicas</a>
+                  href="#caracteristicas"style="font-size: 12px;">Caracteristicas</a>
               </div>
 
               <div>
-                <a data-id-modal-box-nav="4" href="#contacto">Contacto</a>
+                <a data-id-modal-box-nav="4" href="#contacto"style="font-size: 12px;">Contacto</a>
               </div>
               <span class="modal-box-nav-icon right">
                 <i class='bx bx-chevron-right'></i>
@@ -200,7 +204,13 @@ $formbuilderjson = json_decode($propiedad['formbuilderjson'], true);
 
             <div id="detallesPropiedad"
               style="overflow-y: scroll; height: 425px">
+              <!-- En este punto se encuentra la seccion general -->
               <section id="general" class="my-3 mr-3">
+                <!-- Inicio de la nueva seccion -->
+
+               
+
+                <!-- Fin de la nueva seccion -->
                 <div class="mapaPropiedad"></div>
                 <div class="d-flex justify-content-end align-items-center mt-4">
                   <div>

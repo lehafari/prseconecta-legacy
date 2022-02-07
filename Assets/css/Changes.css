@@ -22,4 +22,9 @@
 
   .btn:hover{
     background-color: rgba(97, 97, 97, 0.2) !important;
+    
+  }
+
+  .sidebar .textovolteado{
+    top: 150px !important;
   }

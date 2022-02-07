@@ -20,8 +20,9 @@
           <div class="tile-body">
             <div class="row text-center justify-content-center py-3">
               <div class="col-lg-3 ">
-                <button class="btn btn-block py-3 font-weight-bold "
+                <button class="btn btn-block py-3 font-weight-bold  btn_marico"
                   style="font-size: 20px;"
+                  
                   onclick="seleccionarListado(this,'listado')">
                   LISTAR
                 </button>

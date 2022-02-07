@@ -22,18 +22,18 @@ headerTienda($data);
                     Puerto Rico</h3>
 
                   <p class="sub-sub-title">
-                    <i class='bx bxs-check-square'></i>
+                    <i class='bx bxs-check-square shadow'></i>
                     Una parte de los ingresos se destina al fondo de
                     PRSeConecta.
                   </p>
 
                   <p class="sub-sub-title mb-5">
-                    <i class='bx bxs-check-square'></i>
+                    <i class='bx bxs-check-square shadow'></i>
                     Hazlo Súper DESTACADO! Aumenta aún más.
                   </p>
                 </div>
                 <div class="col-lg-4 my-5" >
-                  <div class="card bg-transparent-prseconecta"  >
+                  <div class="card bg-transparent-prseconecta shadow">
                     <div class="card-body ">
                       <form id="form-cotizacion" >
                         <div class="mb-3">
