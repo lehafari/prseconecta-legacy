@@ -62,7 +62,7 @@
     </div>
     <?php if (!isset($data['dashboard-dark'])) { ?>
       <!-- HEADER ADMIN ESTA EL TEXTO VOLTEADO -->
-    <span class="textovolteado">
+    <span class="textovolteado" style="top: 140px;">
       Panel de Control
     </span>
     <?php } ?>

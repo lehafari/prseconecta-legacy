@@ -38,7 +38,7 @@ const SECRET = 'ENb9nRBje0xoqXzvz6HL_4dRe-0Go4-My5e_kKgWNl2ozbptjXO-5KD1QovcYNSR
 //Datos envio de correo
 const NOMBRE_REMITENTE = 'prseconecta';
 const EMAIL_REMITENTE = 'no-reply@ecozapas.com';
-const NOMBRE_EMPRESA = 'Prseconecta - Comercial';
+const NOMBRE_EMPRESA = 'PRSeConecta - comercial';
 const WEB_EMPRESA = BASE_URL;
 const DESCRIPCION_EMPRESA = 'La mejor tienda en Linea de bisuteria.';
 const SHAREDHASH = '';

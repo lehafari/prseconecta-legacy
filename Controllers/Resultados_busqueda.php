@@ -23,6 +23,10 @@ class Resultados_busqueda extends Controllers
     $propiedadesGratuitas = $this->getPropiedades(PAQUETE_REGULAR_GRATUITO);
     $propiedades = [$propiedadesGratuitas, $propiedadesDestacadas, $propiedadesSuperDestacadas];
     $data['propiedades'] = $propiedades;
+    $destacados = array();
+    $destacados[0] = !empty($listado_destacados[0]) ? $listado_destacados[0] : [];
+    $destacados[1] = !empty($listado_destacados[1]) ? $listado_destacados[1] : [];
+    $data['listado-destacados'] = $destacados;
 
     $data['propiedad'] = [];
     if (!empty($_GET['listing_id'])) {
