@@ -18,7 +18,7 @@ class Admin_login extends Controllers
             header('location: ' . base_url() . '/dashboard');
         }
         $data['page_tag'] = 'Admin Login - ' . NOMBRE_EMPRESA;
-        $data['page_title'] = 'Admin Login - ' . NOMBRE_EMPRESA;
+        $data['page_title'] = NOMBRE_EMPRESA . "<br/>" . 'Admin Login ';
         $data['page_name'] = 'Admin Login';
         $data['page_functions_js'] = 'admin-login.js';
         $this->views->getView($this, 'login', $data);
